@@ -9,6 +9,11 @@ body {
     padding-top: 20px;
     padding-right: 100px;
     padding-left: 100px;
+    min-height: 100vh;
+    background-image: url("img/fundo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .conteudo {
