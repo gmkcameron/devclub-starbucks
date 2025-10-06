@@ -59,15 +59,20 @@ button:hover {
 
 .caixa-imagem {
     width: 600px;
+    margin-top: 70px;
     display: flex;
     justify-content: flex-end;
 }
 
 .starbucks {
-    width: 340px;
+    width: 280px;
 }
 
 .menu {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
     justify-content: center;
 }
@@ -84,7 +89,8 @@ button:hover {
 }
 
 .imagem-copo {
-    width: 340px;
+    width: 280px;
+    margin-top: 70px;
 }
 
 .circulo {
@@ -94,6 +100,6 @@ button:hover {
     position: absolute;
     top: 0;
     left: 0;
-    clip-path: circle(600px at right 800px);
+    clip-path: circle(600px at right 700px);
     z-index: -1;
 }
