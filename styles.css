@@ -40,6 +40,11 @@ span {
     color: #017143;
     font-size: 70px;
     font-weight: 900;
+    -webkit-text-stroke: 1px #ffffff;
+    text-shadow: 1px 0 0 #ffffff,
+                 -0.5px 0 0 #ffffff,
+                 0 0.5px 0 #ffffff,
+                 0 -0.5px 0 #ffffff;
 }
 
 p {
